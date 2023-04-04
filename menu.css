@@ -6,15 +6,16 @@
 }
 
 header {
-    padding: 20px;
+    padding: 8px;
     text-align: center;
-    background-color: black;
+    background-color: var(--cinza_4);
     color: white;
 }
 
 header > h1 {
     margin: 5px;
     padding: 10px 0px 5px 0px;
+    text-shadow: 1px 1px 2px var(--azul);
 }
 
 header > p {
@@ -23,20 +24,23 @@ header > p {
 }
 
 nav {
-    background-color: red;
-    padding: 15px;
+    background-color: var(--cinza_1);
+    padding: 1px;
     text-align: center;
 }
 
 nav > p > a {
     color: white;
     text-decoration: none;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 7px 5px 7px 5px;
     transition-duration: 0.5s;
+    font-size: 0.8em;
+    display: inline-block
 }
 
 nav > p > a:hover {
-    background-color: rgba(255, 255, 255, 0.486);
-    color: rgb(109, 22, 11);
+    padding: 7px 15px 7px 15px;
+    background-color: var(--rosa);
+    color: white;
 }
+
