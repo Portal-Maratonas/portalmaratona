@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+:root {
+    --cinza_1: #4b4246;
+    --cinza_2: #574C51;
+    --cinza_3: #96848D;
+    --cinza_4: #332D30;
+    --cinza_claro: #D6BCC8;
+    --amarelo: #F7B801;
+    --laranja_1: #F18701;
+    --laranja_2: #F35B04;
+    --rosa: #F72585;
+    --azul_escuro: #2C3C89;
+    --azul: #4361EE;
+    --preto: #000000;
+    --branco: #ffffff;
+}
