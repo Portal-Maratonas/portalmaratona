@@ -5,6 +5,11 @@
     padding: 0px;
 }
 
+body {
+    background-color: black;
+    color: white;
+}
+
 header {
     padding: 8px;
     text-align: center;
