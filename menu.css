@@ -1,14 +1,8 @@
 @charset "UTF-8";
 
-* {
-    margin: 0px;
-    padding: 0px;
-}
+/* Configurações para o Menu - Header e Nav (Por enquanto)*/
 
-body {
-    background-color: black;
-    color: white;
-}
+/* ---------- CONFIGURAÇÕES HEADER ---------- */
 
 header {
     padding: 8px;
@@ -27,6 +21,8 @@ header > p {
     padding-top: 0px;
     padding-bottom: 15px;
 }
+
+/* ---------- CONFIGURAÇÕES NAV ---------- */
 
 nav {
     background-color: var(--cinza_1);
