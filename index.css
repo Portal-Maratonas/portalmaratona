@@ -6,4 +6,22 @@
     background: #162c;
     padding: 100px;
     width: 50%;
+
 }
+
+/* 
+.sobre
+{
+    position: absolute;
+    width: 100%;
+    display: block;
+    background: #162c;
+    padding: 100px 0px 100px 0px;
+    background-color: var(--cor);
+}
+
+
+div > p {
+    padding: 100px;
+}
+*/
