@@ -1,0 +1,9 @@
+.sobre
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    background: #162c;
+    padding: 100px;
+    width: 50%;
+}
