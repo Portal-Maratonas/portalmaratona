@@ -11,7 +11,7 @@ document.write('\
     <p>\
     <a href="maratona.html">MARATONA</a>\
     <a href="noticias.html">NOTÍCIAS</a>\
-    <a href="galeria.html">GALERIA OD4RT</a>\
+    <a href="galeria.html">GALERIA</a>\
     <a href="results.html">RESULTADOS</a>\
     <a href="contact.html">FALE CONOSCO</a>\
     <a href="estudos.html">ESTUDOS</a>\
