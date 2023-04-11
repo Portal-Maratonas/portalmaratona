@@ -1,7 +1,7 @@
 document.write('\
 \
     <header>\
-    <h1>ALUMNI MARATONA DE PROGRAMAÇÃO</h1>\
+    <a href="index.html" class="titulo"><h1>ALUMNI MARATONA DE PROGRAMAÇÃO</h1></a>\
     <!--<div>\
     <button class="button">Dark</button>\
     <script src="button.js"></script> // Ideia do botão para alternar temas.\
@@ -16,6 +16,7 @@ document.write('\
     <a href="contact.html">FALE CONOSCO</a>\
     <a href="estudos.html">ESTUDOS</a>\
     <a href="cadastro_login.html">CADASTRO/LOGIN</a>\
+    <a href="teste.html">TESTES</a>\
     </p>\
     </nav>\
 \

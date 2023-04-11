@@ -11,10 +11,12 @@ header {
     color: white;
 }
 
-header > h1 {
+header > .titulo {
     margin: 5px;
     padding: 10px 0px 5px 0px;
     text-shadow: 1px 1px 2px var(--azul);
+    text-decoration: none;
+    color: white;
 }
 
 header > p {
@@ -28,6 +30,7 @@ nav {
     background-color: var(--cinza_1);
     text-align: center;
 }
+
 
 nav > p > a {
     color: white;
@@ -43,5 +46,10 @@ nav > p > a:hover {
     background-color: var(--rosa);
     color: white;
 }
+
+nav > p > a::selection {
+    color: var(--amarelo);
+}
+
 
 
