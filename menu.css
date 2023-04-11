@@ -14,7 +14,7 @@ header {
 header > .titulo {
     margin: 5px;
     padding: 10px 0px 5px 0px;
-    text-shadow: 1px 1px 2px var(--azul);
+    text-shadow: 1px 1px 0px var(--azul);
     text-decoration: none;
     color: white;
 }
@@ -43,6 +43,7 @@ nav > p > a {
 
 nav > p > a:hover {
     padding: 7px 15px 7px 15px;
+    transition-duration: 0.5s;
     background-color: var(--rosa);
     color: white;
 }
