@@ -1,4 +1,4 @@
-.sobre
+/*.sobre
 {
     position: relative;
     width: 100%;
@@ -7,6 +7,44 @@
     padding: 100px;
     width: 50%;
 
+} */
+
+@charset "UTF-8";
+
+.sobre 
+{
+    background-color: var(--cinza_1);
+}
+
+.div1 {
+    width: 60%;
+    display: inline-block;
+}
+
+.logo_maratona {
+    display: inline-block;
+    height: 200px;
+    width: 30%;
+    background-color: aqua;
+}
+
+.logo_maratona >img {
+    height: 200px;
+}
+
+.sobre > h1 {
+    text-transform: uppercase;
+    color: var(--laranja_2);
+}
+
+#titulo1 
+{
+    font-family: var(--fonte_conteudo);
+}
+
+#titulo2 
+{
+    font-family: var(--fonte_titulo_4);
 }
 
 /* 
