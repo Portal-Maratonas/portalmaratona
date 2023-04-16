@@ -83,6 +83,22 @@ body {
     color: white;
 }
 
+.logo {
+    background-image: url("Imagens/fundo_medio.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+}
+
+.logoimg {
+    margin: auto;
+}
+
+.logoimg > img {
+    width: 350px;
+}
+
 
 h1, h2 {
     font-family: var(--fonte_titulo_4);
