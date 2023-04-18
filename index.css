@@ -1,65 +1,101 @@
-/*.sobre
-{
-    position: relative;
-    width: 100%;
-    display: flex;
-    background: #162c;
-    padding: 100px;
-    width: 50%;
-
-} */
-
 @charset "UTF-8";
 
-.sobre 
-{
+.sobre {
     background-color: var(--cinza_1);
 }
 
 .div1 {
-    width: 60%;
-    display: inline-block;
+    max-width: 1000px;
+    position: relative;
+    display: block;
+    margin: auto;
+    padding: 50px;
 }
 
 .logo_maratona {
     display: inline-block;
-    height: 200px;
-    width: 30%;
-    background-color: aqua;
+    align-self: auto;
+    height: 100px;
+    width: 20%;
+    background-color: blue;
 }
 
 .logo_maratona >img {
     height: 200px;
 }
 
-.sobre > h1 {
-    text-transform: uppercase;
+
+.div1 > h1 { 
     color: var(--laranja_2);
+    text-transform: uppercase;
+    padding: 5px;
 }
 
-#titulo1 
-{
+.div1 > p {
+    padding: 5px 5px 13px 5px;
+    text-align: justify;
+}
+
+.div1 > a { 
+    text-decoration: none;
+    color: var(--laranja_2);
+    border: 4px solid var(--laranja_2);
+    padding: 5px;
+    display: inline-block;
+    margin: auto;
+}
+
+#titulo1 {
     font-family: var(--fonte_conteudo);
+    font-weight: bolder;
+    font-size: 2.6em;
 }
 
-#titulo2 
-{
+#titulo2 {
     font-family: var(--fonte_titulo_4);
+    text-decoration: none;
+    font-size: 2em;
+    padding-bottom: 20px;
 }
 
-/* 
-.sobre
-{
-    position: absolute;
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.info_resumida {
+    position: relative;
     width: 100%;
-    display: block;
-    background: #162c;
-    padding: 100px 0px 100px 0px;
-    background-color: var(--cor);
+    display: flex;
 }
 
+.info_resumida .conteudoB1 {
+    background-color: var(--cinza_2);
+    padding: 100px 80px;
+    width: 50%;
+}
 
-div > p {
+.boxB1 {
+    background-color: var(--laranja_2);
+    padding: 10px;
+    margin: 35px;
+    box-shadow: 10px 10px var(--amarelo);
+}
+
+.boxB1 > h2 {
+    font-family: var(--fonte_titulo_1);
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: normal;
+    padding: 5px 0px 5px 0px;
+}
+
+.info_resumida > .conteudoB1 > p {
+    padding-bottom: 10px;
+}
+
+.info_resumida .conteudoB2 {
+    background-color: black;
     padding: 100px;
+    width: 50%;
 }
-*/

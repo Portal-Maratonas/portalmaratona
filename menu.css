@@ -29,6 +29,7 @@ header > p {
 nav {
     background-color: var(--cinza_1);
     text-align: center;
+    cursor: pointer;
 }
 
 
