@@ -1,42 +1,47 @@
 @charset "UTF-8";
 
-.sobre {
-    background-color: var(--cinza_1);
-}
 
-.div1 {
-    max-width: 1000px;
+.logo {
+    background-image: url("Imagens/Imagens_de_fundo/fundo_medio.jpg");
+    background-position: center center;
+    background-size: cover;
     position: relative;
+    padding: 40px 0px 60px 0px;
+}
+
+.logo > img {
+    width: 350px;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sobre_maratona {
+    width: 100%;
+    background-color: var(--cinza_2);
+    width: 100%;
+}
+
+.conteudo_maratona {
     margin: auto;
-    padding: 50px;
+    max-width: 900px;
+    min-width: 300px;
+    background-color: var(--cinza_1);
+    padding: 60px
 }
 
-.logo_maratona {
-    display: inline-block;
-    align-self: auto;
-    height: 100px;
-    width: 20%;
-    background-color: blue;
-}
-
-.logo_maratona >img {
-    height: 200px;
-}
-
-
-.div1 > h1 { 
+.conteudo_maratona >  h1 { 
     color: var(--laranja_2);
     text-transform: uppercase;
     padding: 5px;
 }
 
-.div1 > p {
+.conteudo_maratona > p {
     padding: 5px 5px 13px 5px;
     text-align: justify;
 }
 
-.div1 > a { 
+.conteudo_maratona > a { 
     text-decoration: none;
     color: var(--laranja_2);
     border: 4px solid var(--laranja_2);
@@ -44,6 +49,13 @@
     display: inline-block;
     margin: auto;
 }
+
+img, picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 #titulo1 {
     font-family: var(--fonte_conteudo);
@@ -66,16 +78,12 @@ img {
 .info_resumida {
     position: relative;
     width: 100%;
-    display: flex;
-}
-
-.info_resumida .conteudoB1 {
     background-color: var(--cinza_2);
     padding: 100px 80px;
-    width: 50%;
 }
 
 .boxB1 {
+    display: block;
     background-color: var(--laranja_2);
     padding: 10px;
     margin: 35px;

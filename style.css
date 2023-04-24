@@ -73,6 +73,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 
@@ -82,24 +83,6 @@ body {
     background-color: rgb(0, 0, 0);
     color: white;
 }
-
-.logo {
-    background-image: url("Imagens/Imagens_de_fundo/fundo_grande.jpg");
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 350px;
-    width: 100%;
-}
-
-.logoimg {
-    margin: auto;
-}
-
-.logoimg > img {
-    width: 350px;
-}
-
 
 h1 {
     font-family: var(--fonte_titulo_4);
