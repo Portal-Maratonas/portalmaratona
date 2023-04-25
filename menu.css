@@ -65,6 +65,34 @@ nav > p > a::selection {
     color: var(--branco);
     font-family: var(--fonte_conteudo_1);
     text-transform: uppercase;
-    fon
+}
+
+#div_footer {
+    background-color: var(--cinza_4);
+    width: 100%;
+    height: fit-content;
+}
+
+footer {
+    height: fit-content;
+    background-color: var(--cinza_4);
+    padding: 30px 10px 10px 0px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+footer > .div_footer_img {
+    display: inline-block;
+    height: fit-content;
+    width: 33%;
+    padding-bottom: 20px;
+}
+
+footer > .div_footer_img > img {
+    height: 200px;
+}
+
+footer > p {
+    text-align: center;
 }
 
