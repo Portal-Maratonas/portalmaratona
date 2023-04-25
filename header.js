@@ -6,6 +6,11 @@ document.write('\
     <button class="button">Dark</button>\
     <script src="button.js"></script> // Ideia do botão para alternar temas.\
     </div> -->\
+    <div>\
+        <button class="button_login">\
+            Entrar\
+        </button>\
+    </div>\
     </header>\
     <nav>\
     <p>\
