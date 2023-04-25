@@ -5,6 +5,10 @@
 /* ---------- CONFIGURAÇÕES HEADER ---------- */
 
 header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
     padding: 8px;
     text-align: center;
     background-color: var(--cinza_4);
@@ -53,5 +57,14 @@ nav > p > a::selection {
     color: var(--amarelo);
 }
 
-
+.button_login {
+    background-color: var(--amarelo);
+    font-size: 1em;
+    padding: 7px;
+    border: 0px;
+    color: var(--branco);
+    font-family: var(--fonte_conteudo_1);
+    text-transform: uppercase;
+    fon
+}
 
