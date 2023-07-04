@@ -53,8 +53,9 @@ nav > p > a:hover {
     color: white;
 }
 
-nav > p > a::selection {
-    color: var(--amarelo);
+nav a:active,
+nav a.active {
+  background-color: red;
 }
 
 .button_login {
@@ -71,9 +72,15 @@ nav > p > a::selection {
     background-color: var(--cinza_4);
     width: 100%;
     height: fit-content;
+    text-align: center;
+    padding: 30px 10px;
 }
 
 footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     height: fit-content;
     background-color: var(--cinza_4);
     padding: 30px 10px 10px 0px;
@@ -82,17 +89,25 @@ footer {
 }
 
 footer > .div_footer_img {
-    display: inline-block;
-    height: fit-content;
-    width: 33%;
+    flex: 1;
     padding-bottom: 20px;
+    text-align: center;
 }
 
 footer > .div_footer_img > img {
     height: 200px;
+    max-width: 100%;
 }
+
+@media screen and (max-width: 600px) {
+    footer > .div_footer_img > img {
+      height: 110px;
+    }
+  }
+  
 
 footer > p {
     text-align: center;
+    margin-top: 20px;
 }
 

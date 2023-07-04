@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .container {
+      position: relative;
+      width: 200px;
+      height: 200px;
+    }
+
+    .diagonal-div {
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      width: 100px;
+      height: 100px;
+      border: 2px solid red;
+      transform: translate(10px, 10px);
+      z-index: 2;
+    }
+
+    .normal-div {
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      width: 100px;
+      height: 100px;
+      border: 2px solid red;
+      z-index: 3;
+      background-color: palevioletred;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="diagonal-div"></div>
+    <div class="normal-div"></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+/* Configurações para o Menu - Header e Nav (Por enquanto)*/
+
+/* ---------- CONFIGURAÇÕES HEADER ---------- */
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        padding: 8px;
+        text-align: center;
+        background-color: var(--cinza_4);
+        color: white;
+    }
+
+    header > .titulo {
+        margin: 5px;
+        padding: 10px 0px 5px 0px;
+        text-shadow: 1px 1px 0px var(--azul);
+        text-decoration: none;
+        color: white;
+        font-family: var(--fonte_titulo_2) ;
+    }
+
+    header > p {
+        padding-top: 0px;
+        padding-bottom: 15px;
+    }
+
+/* ---------- CONFIGURAÇÕES NAV ---------- */
+
+    nav {
+        background-color: var(--cinza_1);
+        text-align: center;
+        cursor: pointer;
+    }
+
+    nav > p > a {
+        color: white;
+        text-decoration: none;
+        padding: 7px 5px 7px 5px;
+        transition-duration: 0.5s;
+        font-size: 0.8em;
+        display: inline-block
+    }
+
+    nav > p > a:hover {
+        padding: 7px 15px 7px 15px;
+        transition-duration: 0.5s;
+        background-color: var(--rosa);
+        color: white;
+    }
+
+    /*.button_login {
+        background-color: var(--amarelo);
+        font-size: 1em;
+        padding: 7px;
+        border: 0px;
+        color: var(--branco);
+        font-family: var(--fonte_conteudo_1);
+        text-transform: uppercase;
+    }*/
+
+
+/* ---------- CONFIGURAÇÕES FOOTER ---------- */
+
+    #div_footer {
+        background-color: var(--cinza_4);
+        width: 100%;
+        height: fit-content;
+        text-align: center;
+        padding: 30px 10px;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        background-color: var(--cinza_4);
+        padding: 30px 10px 10px 0px;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    footer > .div_footer_img {
+        flex: 1;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    footer > .div_footer_img > img {
+        height: 200px;
+        max-width: 100%;
+    }
+
+    @media screen and (max-width: 600px) {
+        footer > .div_footer_img > img {
+        height: 110px;
+        }
+    }
+    
+
+    footer > p {
+        text-align: center;
+        margin-top: 20px;
+    }
