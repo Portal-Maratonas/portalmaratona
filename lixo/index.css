@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+.logo {
+    background-image: url("Imagens/Imagens_de_fundo/fundo_medio.jpg");
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    padding: 40px 0px 60px 0px;
+}
+
+.logo > img {
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sobre_maratona {
+    width: 100%;
+    background-color: var(--cinza_2);
+    width: 100%;
+}
+
+.conteudo_maratona {
+    margin: auto;
+    max-width: 900px;
+    min-width: 300px;
+    background-color: var(--cinza_1);
+    padding: 60px
+}
+
+.conteudo_maratona >  h1 { 
+    color: var(--laranja_2);
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.conteudo_maratona > p {
+    padding: 5px 5px 13px 5px;
+    text-align: justify;
+}
+
+.conteudo_maratona > a { 
+    text-decoration: none;
+    color: var(--laranja_2);
+    border: 4px solid var(--laranja_2);
+    padding: 5px;
+    display: inline-block;
+    margin: auto;
+}
+
+img, picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#titulo1 {
+    font-family: var(--fonte_conteudo);
+    font-weight: bolder;
+    font-size: 2.6em;
+}
+
+#titulo2 {
+    font-family: var(--fonte_titulo_4);
+    text-decoration: none;
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+
+#botao_saiba_mais { 
+    text-decoration: none;
+    color: var(--laranja_2);
+    border: 4px solid var(--laranja_2);
+    padding: 5px;
+    display: inline-block;
+    margin: auto;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.info_resumida {
+    position: relative;
+    width: 100%;
+    background-color: var(--cinza_2);
+    padding: 100px 80px;
+}
+
+.boxB1 {
+    display: block;
+    background-color: var(--laranja_2);
+    padding: 10px;
+    margin: 35px;
+    box-shadow: 10px 10px var(--amarelo);
+}
+
+.boxB1 > h2 {
+    font-family: var(--fonte_titulo_1);
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: normal;
+    padding: 5px 0px 5px 0px;
+}
+
+.info_resumida > .conteudoB1 > p {
+    padding-bottom: 10px;
+}
+
+.info_resumida .conteudoB2 {
+    background-color: black;
+    padding: 100px;
+    width: 50%;
+}
+
+.resultados {
+    background-color: var(--laranja_2);
+    text-align: center;
+}
+
+.resultados > img {
+    opacity: 0.5;
+    width: 100%;
+}
+
+.result_titulo {
+    background-color: var(--cinza_1);
+}
+
+.result_titulo> h2 {
+    font-family: var(--fonte_titulo_1);
+    text-transform: uppercase;
+    font-size: 2em;
+    color: var(--amarelo);
+    padding: 80px 80px 40px 80px;
+}
+
+.result_titulo > button {
+    font-family: var(--fonte_titulo_1);
+    text-transform: uppercase;
+    padding: 5px 20px;
+    background-color: var(--cinza_1);
+    border: 4px solid var(--amarelo);
+    margin: 0px 10px 80px 0px;
+    color: var(--azul);
+}
+
+.box_site {
+/*     display: inline-block;
+    margin-left: auto;
+    margin-right: auto; */
+    /* position: relative; */
+    /* width: 20%; */
+    height: auto;
+    padding: 5px;
+/*     margin-left: 5%;
+    margin-right: 5%; */
+    background-color: var(--laranja_2);
+    text-align: center;
+}
+
+.box_site img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 100px;
+    border: 4px solid var(--laranja_1);
+}
+
+.box_site > button {
+    font-family: var(--fonte_conteudo_1);
+    text-transform: uppercase;
+    padding: 5px 20px;
+    background-color: var(--cinza_1);
+    border: 4px solid var(--amarelo);
+    margin: 0px 10px 0px 10px;
+    color: var(--azul);
+    font-size: 70%;
+}
+
+.box_site a {
+    color: var(--branco);
+    text-decoration: none;
+    
+}
+
+#titulo3 {
+    text-align: center;
+    font-family: var(--fonte_titulo_4);
+    text-decoration: none;
+    font-size: 1.5em;
+    color: var(--laranja_1);
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+#sites {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    gap: 10px;
+    flex-wrap: wrap;
+}
