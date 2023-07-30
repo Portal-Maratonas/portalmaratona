@@ -1,4 +1,117 @@
-Oi gente, tudo bem? Vou explicar aqui brevemente a organização desses arquivos;
+Oi gente, vou explicar aqui brevemente a organização desse repositório:
 
-Arquivos e Pastas:
-    
+ARQUIVOS:
+
+    > index.html:
+        Arquivo principal, home page do site;
+        É esta página que o GitHub Pages carrega primeiro;
+
+    > noticias.html;
+        Página de notícias;
+        Onde ficarão as notícias que irão ser escritas relacionadas à Maratona;
+
+    > galeria.html:
+        Página onde ficarão as fotos da Maratona que serão add. no site;
+
+    > resultados.html:
+        Página com links para o site que possue os resultados das Marato-
+        nas anteriores;
+        A ideia para o futuro dessa página é expor algumas estatísticas re-
+        lacionadas a esses dados dos resultados;
+
+    > contato.html:
+        Página com as informações de contato e botões para um contato directio
+        por meio do nosso email;
+
+    > estudos.html:
+        Página em que ficarão links e sugestões de estudos para quem deseja se
+        preparar para fazer a Maratona;
+
+    > cadastro_login.html:
+        Página em que o usuário poderá fazer seu cadastro/login no portal;
+
+
+PASTAS:
+
+    > cabecalho_rodape:
+        Nesta pasta estão arquivos .js que servem para escrever automaticamente
+        o rodapé e o cabeçalho em todas as páginas. 
+        Se deseja fazer alguma alteração no rodapé ou no cabeçalho é necessário
+        fazer em um dos arquivos desta pasta;
+
+        Os arquivos são:
+            - head.js:
+                Necessário em todas as páginas;
+                Escreve algumas coisas básicas necessárias para as páginas;
+                Talvez este deseja desnecessário, então dá para excluir a atua-
+                lizar as páginas depois;
+
+            - header.js:
+                Escreve o cabeçalho em todas as páginas;
+
+            - footer.js:
+                Ecreve o rodapé em todas as páginas;
+
+    > css:
+        Nesta página devem ficar todos os arquivos de folha de estilo (.css);
+        Para uma melhor organização cada página deve ter o seu próprio arquivo
+        com o mesmo nome da página que está sendo estilizada; 
+        Alguns arquivos são comuns para todas as páginas;
+
+        Os arquivos que temos são:
+             - index.css:
+                Estiliza a página principal, o index.html;
+
+            - main.css 
+                Estiliza o header (cabeçalho) e o footer (rodapé);
+                É um arquivo necessário em todas as páginas com cabeçalho e 
+                rodapé;
+                Se precisar estilizar alguma coisa que irá aparecer em várias
+                páginas, sugiro fazer nesse arquivo;
+
+            - style.css
+                Contém todas as informações principais da estilização:
+                    - Cores;
+                    - Fontes;
+                    - Configurações gerais;
+                Para adicionar uma nova fonte, cor ou uma configuração de esti-
+                lo geral, sugiro fazer nesse arquivo;
+                Esse arquivo é OBRIGATÓRIO em todas as páginas;
+
+    > fnts:
+        Pasta em que ficam as fontes que foram baixadas;
+        Temos 3 no total;
+
+    > img:
+        Pasta em que ficam as imagens, organizadas em subpastas:
+
+        > Favicon:
+            Fica o arquivo utilizado como favicon;
+
+        > Imagens_de_fundo:
+            Ficam os arquivos utilizados como imagens de fundo;
+
+        > Imagens_gerais:
+            Ficam as imagens gerais, utilizadas em vários locais diferentes
+            pelo site;
+            Exceto logotipos;
+
+        > logos:
+            Ficam as imagens que são logotipos, sejam os do próprio site,
+            como os de outros sites, instituições, etc;
+
+        > galeria:
+            Seria interessante ter uma pasta com as fotos da galeria, mas não 
+            sei se será necessárias;
+
+    > js:
+        Ficam os scripts em .js usados em partes do site;
+        Exceto os scripts relacionados ao cabeçalho e ao rodapé;
+
+        Arquivos:
+            - carrossel.js:
+                Configura o carrossel de imagens da página principal;
+
+    > lixo:
+        Arquivos, páginas, enfim, tudo que não está mais sendo usado, mas que 
+        é interessante guardar para referências futuras e testes;
