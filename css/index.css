@@ -4,7 +4,7 @@
 /* ---------- DIV LOGO ---------- */
 
     .logo {
-        background-image: url("../imagens/Imagens_de_fundo/fundo_medio.jpg");
+        background-image: url("../img/Imagens_de_fundo/fundo_medio.jpg");
         background-position: center center;
         background-size: cover;
         position: relative;

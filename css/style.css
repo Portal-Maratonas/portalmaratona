@@ -14,19 +14,19 @@
 /* VCR Mono - DaFont (Pasta: Fontes) */
 @font-face {
     font-family: 'VCR Mono';
-    src: url("../fontes/VCR_OSD_MONO_1.001.ttf");
+    src: url("../fnts/VCR_OSD_MONO_1.001.ttf");
 }
 
 /* Pixelade - DaFont (Pasta: Fontes) */
 @font-face {
     font-family: 'Pixelade';
-    src: url("../fontes/PIXELADE.TTF");
+    src: url("../fnts/PIXELADE.TTF");
 }
 
 /* Pixellari - DaFont (Pasta: Fontes) */
 @font-face {
     font-family: 'Pixellari';
-    src: url("../fontes/Pixellari.ttf");
+    src: url("../fnts/Pixellari.ttf");
 }
 
 /*  Algumas outras possibilidades de fontes:
