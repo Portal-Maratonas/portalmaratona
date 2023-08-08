@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+/* Estilos para a div de título */
+.div_titulo {
+    background-color: var(--cinza_4);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#div1_titulo {
+    font-family: var(--fonte_titulo_4);
+    text-decoration: none;
+    font-size: 5em;
+    padding: 27px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: var(--laranja_2);
+}
+
+#div1_conteudo {
+    padding: 30px;
+    padding-top: 10px;
+    max-width: 500px;
+    text-align: justify;
+}
+
+/* Estilos para a linha horizontal abaixo do título */
+.linha_horizontal {
+    width: 400px;
+    height: 6px; 
+    background-color: var(--laranja_2); 
+    margin: 20px auto;
+    margin-top: -15px;
+}
+
+/* Estilos para as divs de sites de estudos */
+.sites_estudos {
+    height: fit-content;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+
+.sites_titulo, .site_exemplo {
+    border: 5px solid var(--amarelo);
+    padding: 10px;
+    width: 80%;
+    margin: 10px;
+}
+
+.site_exemplo {
+    border-color: var(--rosa);
+    margin-top: 20px;
+    height: 100px;
+    width: 80%;
+}
+
+#sites_titulo_titulo {
+    text-transform: uppercase;
+    color: var(--amarelo);
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 10px;
+    font-size: 3em;
+    font-family: var(--fonte_conteudo);
+}
+
+#sites_titulo_conteudo {
+    padding: 20px;
+    padding-top: 0px;
+    max-width: 500px;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+/* Estilos para outros conteúdos */
+.outros_conteudos {
+    background-color: var(--cinza_4);
+}
