@@ -53,14 +53,42 @@
 
     .sobre_maratona {
         width: 100%;
-        background-color: var(--cinza_2);
+        background-color: var(--cinza_1);
+        display: flex;
+        align-items: center;
+    }
+
+    .imagem_maratona {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .imagem_maratona img{
+        width: 70%;
+    }
+    
+    .imagem_maratona a {
+        font-family: var(--fonte_conteudo);
+        text-align: center;
+        text-transform: uppercase;
+        color: var(--laranja_2);
+        font-weight: bold;
+
+    }
+
+    .barra_vertical {
+        background-color: var(--laranja_2);
+        width: 10px;
+        height: 400px;
     }
     
     .conteudo_maratona {
         margin: auto;
-        max-width: 1100px;
-        min-width: 300px;
-        background-color: var(--cinza_1);
+        width: 150%;
+        /* max-width: 1100px; */
+        /* min-width: 300px; */
         padding: 60px;
     }
     
