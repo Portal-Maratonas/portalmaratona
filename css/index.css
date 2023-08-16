@@ -306,6 +306,12 @@
     }
       
 /* ---------- DIV FORMULÁRIO DÚVIDAS FREQUENTES ---------- */
+    .barra_horizontal {
+        background-color: var(--branco);
+        width: 100%;
+        height: 3px;
+        margin: 10px 0px;
+    }
 
     .formulario {
         font-family: var(--fonte_conteudo);
@@ -355,12 +361,20 @@
     }
 
     .img-result {
+        background-image: url("../img/Imagens_gerais/imagem_exemplo.jpg");
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+        /* padding: 40px 0px 60px 0px; */
+
+        height: 450px;
         opacity: 0.5; /* Opacidade da imagem */
+
     }
 
     .result_titulo {
         height: auto;
-        background-color: var(--cinza_4);
+        background-color: var(--cinza_1);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -429,6 +443,7 @@
 
     .sites-maratona {
         height: auto;      
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -437,10 +452,11 @@
 
     .box-sites {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         height: auto;
         align-items: center;
-        gap: 100px;
+        width: 100%;
+        gap: 10%;
     }
 
     .box_site {
@@ -488,55 +504,13 @@
         font-size: 15px;
     }
 
-/*     .deslocada_sites {
-        height: 250px;
-        width: 200px;
-        padding: 30px;
-
-        position: absolute;
-        width: 80%;
-        max-width: 900px;
-        height: 120px;
-        border: 3px solid cyan;
-        transform: translate(10px, 10px);
-        z-index: 1;
-
-    } */
-
-/*     .boxB2 {
-        position: relative;
-        width: 200px;
-        max-width: 900px;
-        height: 250px;
-        padding: 20px;
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    } */
-    
-/*     .box_site > button {
-        font-family: var(--fonte_conteudo);
-        text-transform: uppercase;
-        background-color: var(--laranja_2);
-        padding: 5px 20px;
-        background-color: black;
-        border: 4px solid var(--amarelo);
-        margin: 0px 10px;
-        color: var(--azul);
-        font-size: 70%;
-        height: auto;
-        max-width: 200px;
-    } */
-
 
     #titulo3 {
         background-color: black;
         text-align: center;
         font-family: var(--fonte_titulo_4);
-        font-weight: normal;
         font-size: 1.5em;
-        color: var(--laranja_1);
+        color: var(--branco);
         padding: 90px;
         text-transform: uppercase;
     }
@@ -562,5 +536,7 @@
         }
     }
 
-
+#div_footer {
+    width: 98%;
+}
 
