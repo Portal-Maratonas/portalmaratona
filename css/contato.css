@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+.nome_pagina {
+    color: var(--amarelo);
+    background-color: var(--cinza_3);
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.conjunto_duvida {
+    margin: 30px 40px;
+}
+
+.conjunto_duvida > p {
+    padding: 20px 20px;
+}
+
+.pergunta {
+    font-family: var(--fonte_titulo_4);
+    background-color: var(--laranja_1);
+    font-size: 25px;
+}
+
+.resposta {
+    font-family: var(--fonte_conteudo);
+    background-color: var(--cinza_1);
+}
+
+.formulario {
+    margin: 30px 40px;
+    text-align: center;
+}
+
+.formulario > h2 {
+    font-family: var(--fonte_titulo_4);
+    font-size: 40px;
+}
+
+.formulario > p {
+    font-family: var(--fonte_conteudo);
+    font-size: 20px;
+    margin: 10px 0px;
+    
+}
+
+.box_formulario {
+    border: var(--branco) solid 3px;
+    margin: 20px 0px;
+    padding: 10px 5px;
+    font-size: 20px;
+}
+
+.box_formulario p {
+    color: var(--amarelo);
+    text-align: left;
+}
+
+#box_duvida {
+    padding: 40px 5px;
+}
+
+.botao_formulario {
+    background-color: black;
+    border: var(--amarelo) solid 3px;
+    color: var(--branco);
+    text-transform: uppercase;
+    padding: 10px 15px;
+    margin: 20px;
+}
+
+.formulario h3 {
+    font-family: var(--fonte_titulo_4);
+    font-size: 20px;
+    margin: 5px 0px;
+}
+
+#div_footer {
+    margin-top: 30px;
+    width: 98%;
+}
